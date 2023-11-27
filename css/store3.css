@@ -1,0 +1,208 @@
+.entity_table{
+    border-collapse: collapse;
+    min-width: 100%;
+    border: 1px solid black;
+    box-shadow: 0 0 8px grey;
+}
+
+.entity_table td, .entity_table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+.entity_table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.entity_table tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.entity_table th {
+    padding: 5px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+
+/* Form Options */
+
+.form_options{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.form_options .option_btn{
+    color: white;
+    font-weight: 600;
+    background-color: var(--secondary-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Sub Content */
+
+.sub_content{
+    height: 100%;
+    position: relative;
+}
+
+/* Forms */
+
+.hdn_forms{
+    min-width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px gray;
+    height: fit-content;
+    background-color: var(--secondary-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+
+.hdn_forms form{
+    display: flex;
+    flex-direction: column;
+}
+
+.hdn_forms form > * {
+    margin: 5px;
+}
+
+.hdn_forms form p{
+    color: white;
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.hdn_forms form input[type=text],
+.hdn_forms form input[type=number],
+.hdn_forms form button[type=textarea]{
+    padding: 3px;
+    outline: none;
+}
+
+.hdn_forms form input[type=number]{
+    appearance: none;
+    border: none;
+}
+
+.hdn_forms form input[type=number]::-webkit-outer-spin-button,
+.hdn_forms form input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.hdn_forms form button[type=submit]{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    padding: 5px;
+    margin-top: 5px;
+    margin: 5px auto;
+}
+
+.close_form{
+    margin-bottom: 3px;
+    padding: 5px;
+    color: white;
+    font-size: smaller;
+    font-weight: 600;
+    width: 30%;
+    margin-left: auto;
+    background-color: red;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 80px;
+    cursor: pointer;
+}
+
+.form_search_drop{
+    height: fit-content;
+    width: 100%;
+    background-color: var(--tertiary-color);
+    position: absolute;
+    top: 1.8rem;
+    border-radius: 5px;
+    display: none;
+    padding: 7px;
+    color: var(--secondary-color);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+.form_search{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.form_search input:focus ~ .form_search_drop{
+    display: block;
+}
+
+.product_input td{
+    padding: 0;
+}
+
+.product_input td input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 6px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.sales_form .create_sales{
+    padding: 5px;
+    margin: 10px auto;
+    display: block;
+}
+
+#prodspr_ipt{
+    border: none;
+    outline: none;
+    text-align: center;
+    height: 100%;
+    margin: 6px;
+    padding: 6px;
+}
+
+#hd_orderlines{
+    min-width: 60%;
+    max-height: 60%;
+    overflow-y: scroll;
+}
+
+.itracking_header{
+    text-align: center;
+    font-weight: 600;
+    color: var(--secondary-color);
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+#pop_orderline tr{
+    color: white;
+}
