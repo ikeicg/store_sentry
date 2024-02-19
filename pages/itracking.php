@@ -12,9 +12,12 @@ ORDER BY (quantity - reorder_quantity) DESC';
 $result = $conn->query($sql);
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 13b3c66ac987e0f204c9e7531c0b8655138989f5
 ?>
 
 

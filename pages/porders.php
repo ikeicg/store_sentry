@@ -28,7 +28,10 @@ require_once("db/db_conn.php");
             <th>PRODUCT NAME</th>
             <th>COST PRICE</th>
             <th>QUANTITY</th>
+<<<<<<< HEAD
             <th>EXPIRY</th>
+=======
+>>>>>>> 13b3c66ac987e0f204c9e7531c0b8655138989f5
         </tr>
 
     </table>

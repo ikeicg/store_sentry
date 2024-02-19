@@ -52,7 +52,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         try {
 
-
             $totalValue = $data["totalValue"];
             $orderDate = date('Y-m-d H:i:s'); // Current date and time
             $stmt = $conn->prepare("INSERT INTO purchase_orders (order_date, total_value, spr_id) VALUES (?, ?, ?)");
