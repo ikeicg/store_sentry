@@ -9,8 +9,8 @@ require_once("db/db_conn.php");
 
 <div class="form_options">
     <div class="option_btn" onclick="addProductItem()">Add Product</div>
-   
-    
+
+
 
 </div>
 
@@ -18,7 +18,7 @@ require_once("db/db_conn.php");
 
     <div>
         Supplier ID
-        <input type="number" class="prod_spr" name="prod_spr" id="prodspr_ipt"  autocomplete='off' required>
+        <input type="number" class="prod_spr" name="prod_spr" id="prodspr_ipt" autocomplete='off' required>
     </div>
 
     <table class="entity_table">
@@ -28,10 +28,7 @@ require_once("db/db_conn.php");
             <th>PRODUCT NAME</th>
             <th>COST PRICE</th>
             <th>QUANTITY</th>
-<<<<<<< HEAD
             <th>EXPIRY</th>
-=======
->>>>>>> 13b3c66ac987e0f204c9e7531c0b8655138989f5
         </tr>
 
     </table>
